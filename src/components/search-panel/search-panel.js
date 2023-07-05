@@ -21,7 +21,7 @@ class SearchPanel extends Component {
                 type="text"
                 value={this.state.term}
                 className="form-control search-input"
-                placeholder="Найти сотрудника" 
+                placeholder="Найти сотрудника"
                 onChange={this.onUpdateSearch}/>
         )
     }
